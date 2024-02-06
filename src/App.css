@@ -1,0 +1,37 @@
+.card-Container {
+  margin: auto;
+  position: absolute;
+  top: 0; bottom: 0; /* Center vertically */
+  left: 0; right: 0; /* Center horizontally */
+  min-width: 50%;
+height: 50%;
+  background-color: rgb(86, 150, 150);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+body{
+  background-color: rgb(124, 180, 180);
+}
+.control-row{
+  margin-top: 30px;
+}
+.Number-input{
+  min-width: 120px;
+  text-align: center;
+  /* border: none; */
+  border-radius: 10px;
+  outline: none;
+  border: 2px solid aquamarine;
+}
+
+
+@media (max-width: 600px) {
+ .card-Container {
+
+  min-width: 50%;
+height: 70%;
+ 
+}
+input{
+  padding: 10px;
+}
+}
