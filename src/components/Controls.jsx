@@ -56,7 +56,7 @@ function Controls() {
           ref={inputValue}
         />
 
-        <button type="button" className="btn btn-info" onClick={onAdd}>
+        <button type="button" className="btn btn-info add" onClick={onAdd}>
           ADD
         </button>
         <button type="button" className="btn btn-danger" onClick={onSub}>
